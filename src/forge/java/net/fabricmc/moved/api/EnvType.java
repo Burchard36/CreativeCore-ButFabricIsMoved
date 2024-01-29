@@ -1,4 +1,4 @@
-package net.fabricmc.api;
+package net.fabricmc.moved.api;
 
 public enum EnvType {
     CLIENT,

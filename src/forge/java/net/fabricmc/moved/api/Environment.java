@@ -1,4 +1,4 @@
-package net.fabricmc.api;
+package net.fabricmc.moved.api;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

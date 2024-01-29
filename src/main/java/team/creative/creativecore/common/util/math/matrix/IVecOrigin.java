@@ -5,8 +5,8 @@ import org.joml.Vector3d;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+import net.fabricmc.moved.api.EnvType;
+import net.fabricmc.moved.api.Environment;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;

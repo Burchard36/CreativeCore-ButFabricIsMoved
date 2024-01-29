@@ -2,8 +2,8 @@ package team.creative.creativecore.common.gui.controls.simple;
 
 import java.util.List;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+import net.fabricmc.moved.api.EnvType;
+import net.fabricmc.moved.api.Environment;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;

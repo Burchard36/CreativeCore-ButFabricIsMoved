@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-import net.fabricmc.api.Environment;
+import net.fabricmc.moved.api.Environment;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
