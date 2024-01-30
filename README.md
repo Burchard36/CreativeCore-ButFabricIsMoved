@@ -1,31 +1,13 @@
 # CreativeCore
-This is a common library which works for both forge and fabric but is incomplete without one of its loaders.
+If you want the Original Readme, view the original project: https://github.com/CreativeMD/CreativeCore
 
-## Setup
-https://github.com/CreativeMD/ForgeMods
+# Why?
 
-## Forge Loader
-Created by @CreativeMD: https://github.com/FreezePhoenix/CreativeLoaderForge
+Creative core is used by rather a lot of useful and cool mods, it also provides a package `net.fabricmc.api`, this is just 2 structure classes really
+and don't even pertain to fabric at all (The classes are just copy/pasted into the project), these packages could really just be refactored into
+the base project, but according to other various issues (Mainly from this: https://github.com/CreativeMD/CreativeCore/issues/187) but other
+mods have issues reguarding CC and CC itself also has a few other issues reguarding this library
 
-## Fabric Loader
-Created by @FreezePhoenix: https://github.com/FreezePhoenix/CreativeLoaderFabric
-
-## Dependants
-- AmbientSounds
-- LittleTiles (LittleFrames)
-- OpticManager
-- ItemPhysic
-- PlayerRevive
-
-## Formatting
-You can find the formatter I use for eclipse [here](https://www.dropbox.com/s/ikb4hvxnowt4ubj/CreativeFormater.xml?dl=1).
-
-## Features
-- Gui-Api
-- Packet system (supports splitted packets)
-- platform independent loader
-- CreatuveIngredients objects (a way to uniform itemstack groups)
-- Fake level
-
-## Terms of use
-Feel free to use this mod as a dependency, but you may not copy add files to your mod directly.
+Not a jab at the author who wrote this plugin, I just found it easier for all of the mods I was using in my pack to just simply move the packages
+as creative core is used by many many plugins I am using in my modpack, this issue also exists in other core mods (Macaws, Glodium are some examples)
+but as stated, its just easier for creative core to move these packages away... after all this is forge soooo why is fabric here XD
